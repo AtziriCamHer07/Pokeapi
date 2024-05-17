@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeapi: Escoge el pokémon</title>
+    <link rel="stylesheet" href="file/style.css"> 
+    <link rel="icon" href="img/Pokeball-PNG-Images.png"> 
+</head>
+
+<body>
+    <section class="poke-bg">
+        <a class="btn-pokehistorial" href="#sec-1"  onclick="btnBuscar2()">
+            Mostrar historial
+        </a>
+        <div class="poke-container-position">
+            <div class="poke-container">
+                <h1 class="poke-titulo">
+                    > Escoge tu equipo pokemon:
+                </h1>
+
+                <div class="flex">
+                    <input type="text" placeholder="ㅤIngresa el nombre / ID de la Pokédex" size="46px" height="50px" id="poke">
+
+                    <a class="btn-pokebuscar" onclick="btnBuscar()">
+                        <img src="img/lupa.png" id="ocultar" height="50px">
+                    </a>
+                </div>
+
+                <div id="pokemon-container"></div>
+
+                <div class="equipo-container">
+                    <div class="mini-cont">
+                        <a id="leyenda">
+                            <strong id="eliminacion">> Elimina el equipo presionando los sprites / reset.</strong>
+
+                            <a class="btn-pokeDESbuscar" id="regreat" onclick="btnReset()">
+                                <img src="img/regreso.png" id="desocultar" height="50px">
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="poke-container-2">
+                <img src="img/Captura de pantalla 2024-05-14 164700.png" height="550px">
+            </div>
+        </div>
+    </section>
+
+    <div class="sep"></div>
+    <div class="sep2"></div>
+    <div class="sep"></div>
+
+    <section class="poke2-bg" id="sec-1">
+        <div class="historial-container-position">
+            <h1 class="historial-titulo">
+                > Historial:
+            </h1>
+            
+            <div id="historial-container"></div>
+        </div>
+        <a class="btn-poke" href="seleccion.html">
+            Reiniciar
+        </a>
+    </section>
+    
+    <script src="file/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

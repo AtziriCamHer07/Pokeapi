@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeapi: Escoge el pokémon</title>
+    <link rel="stylesheet" href="file/style.css"> 
+    <link rel="icon" href="img/Pokeball-PNG-Images.png"> 
+</head>
+
+<body>
+    <section class="pokeleccion-bg">
+        <a class="index-container" href="seleccion.html">
+            <audio controls loop>
+                <source src="file/Pokémon Rojo Fuego_Verde Hoja OST - 09 - ¡Combate_ Batalla Normal(M4A_128K).m4a" type="audio/mpeg">
+            </audio>
+        </a>
+    </section>
+
+    <script src="file/script.js"></script>
+</body>
+
+</html>
